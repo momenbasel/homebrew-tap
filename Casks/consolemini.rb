@@ -21,8 +21,8 @@ cask "consolemini" do
   app "ConsoleMini.app"
 
   zap trash: [
-    "~/Library/Application Support/ConsoleMini",
     "~/Library/Application Support/console-mini",
+    "~/Library/Application Support/ConsoleMini",
     "~/Library/Caches/io.consolemini.app",
     "~/Library/Logs/ConsoleMini",
     "~/Library/Preferences/io.consolemini.app.plist",
