@@ -1,13 +1,13 @@
 cask "consolemini" do
-  version "0.1.1"
+  version "0.1.2"
 
   on_arm do
-    sha256 "96d5030ca4931ca23a51a089bbc4c56df2da64c58cacfe72b53deb784d93a3a2"
+    sha256 "d9e2581dcc8169d9c10efa367ffbc2327219b33e1e0e7cc47ac2392887115274"
 
     url "https://github.com/momenbasel/ConsoleMini/releases/download/v#{version}/ConsoleMini-#{version}-arm64-mac.zip"
   end
   on_intel do
-    sha256 "08c0e4f06d8f727df98e12f7aa45159965b877f96a710981390610d0ddad6648"
+    sha256 "334738d5cb7d0c3d69551404756c3905d6b5d86df612f663cccf5aac28ce52f8"
 
     url "https://github.com/momenbasel/ConsoleMini/releases/download/v#{version}/ConsoleMini-#{version}-mac.zip"
   end
@@ -22,6 +22,7 @@ cask "consolemini" do
 
   zap trash: [
     "~/Library/Application Support/ConsoleMini",
+    "~/Library/Application Support/console-mini",
     "~/Library/Caches/io.consolemini.app",
     "~/Library/Logs/ConsoleMini",
     "~/Library/Preferences/io.consolemini.app.plist",
