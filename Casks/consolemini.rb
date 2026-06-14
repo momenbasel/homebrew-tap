@@ -16,7 +16,7 @@ cask "consolemini" do
   desc "Living-room retro and PlayStation console launcher"
   homepage "https://github.com/momenbasel/ConsoleMini"
 
-  depends_on macos: ">= :big_sur"
+  depends_on macos: :big_sur
 
   app "ConsoleMini.app"
 
