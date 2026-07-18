@@ -1,13 +1,13 @@
 cask "consolemini" do
-  version "0.1.2"
+  version "0.1.3"
 
   on_arm do
-    sha256 "d9e2581dcc8169d9c10efa367ffbc2327219b33e1e0e7cc47ac2392887115274"
+    sha256 "2d5126897a0e761c4050737fece4ef25b5ab9d69a97e961718a960a27fc489df"
 
     url "https://github.com/momenbasel/ConsoleMini/releases/download/v#{version}/ConsoleMini-#{version}-arm64-mac.zip"
   end
   on_intel do
-    sha256 "334738d5cb7d0c3d69551404756c3905d6b5d86df612f663cccf5aac28ce52f8"
+    sha256 "0c439b3ec606a7cc0355ac4a751b1b2fb452c569b12857d94f6917946b861675"
 
     url "https://github.com/momenbasel/ConsoleMini/releases/download/v#{version}/ConsoleMini-#{version}-mac.zip"
   end
